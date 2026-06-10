@@ -1,0 +1,19 @@
+{
+  "name": "desi-racer",
+  "version": "3.0.0",
+  "description": "Desi Racer — Indian highway pseudo-3D racing game",
+  "scripts": {
+    "dev":     "vite --open",
+    "build":   "vite build",
+    "preview": "vite preview --open"
+  },
+  "dependencies": {
+    "react":        "^18.3.1",
+    "react-dom":    "^18.3.1",
+    "framer-motion":"^11.2.12"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.2.0"
+  }
+}
