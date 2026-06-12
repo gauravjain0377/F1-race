@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&family=Share+Tech+Mono&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body, #root {
+  width: 100%; height: 100%;
+  overflow: hidden;
+  font-family: 'Share Tech Mono', monospace;
+  background: #04040C;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+button { all: unset; }
+
+.full-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+
+.no-pointer { pointer-events: none; }
